@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="css/connexion.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <script src="js/app.js" defer></script>
+</head>
+
+<body>
+    <div id="login">
+        <h3 class="text-center text-white pt-5">APPLI BUG TRACKER</h3>
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                        <form id="login-form" class="login-form" action="Javascript:Connexion()" method="">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Oikya_Front_Logo.png" class="logo" width="150px" height="150px">
+                            <!-- <h3 class="text-center text-info">BUG TRACKER</h3> -->
+                            <div class="form-group">
+                                <label for="username" class="text-info">Nom d'utilisateur:</label><br>
+                                <input type="text" name="username" id="username" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="text-info">Mot de passe:</label><br>
+                                <input type="password" name="password" id="password" class="form-control">
+                            </div>
+                            <div id="response"></div>
+        
+                            <div id="valider"class="form-group">
+                                <input type="submit" name="submit" class="btn-valider" id="connexion" value="ENTRER"><br>
+                                <a href="inscription.html">s'inscrire</a>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

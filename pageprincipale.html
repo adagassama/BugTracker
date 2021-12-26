@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/pageprincipale.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/app.js"></script>
+   
+</head>
+
+<body onload="Pageprincipale()">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="pageprincipale.html"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Oikya_Front_Logo.png" class="logo" width="70px" height="70px"></a>
+        <!-- <a class="navbar-brand" href="#">BUG TRACKER</a> -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <button class="btn btn-outline-success my-2 my-sm-11" type="submit" id="listeComplete" onclick="Pageprincipale();" >LISTE COMPLÈTE </button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="traite" onclick="PageAtraiter();">A TRAITER </button>
+            
+
+            <ul class="navbar-nav mr-auto">
+             
+            </ul>
+            <a href="ajout.html"><button class="btn btn-outline-success my-2 my-sm-11" type="submit">AJOUTER </button></a>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="deconnexion">DECONNEXION </button>
+          
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h6 class="bug" id="titre"></h6>
+        <table class="table" border="3">
+            <thead class="thead-dark">
+              <tr>
+                <th >Désignation </th>
+                <th class="td">Date </th>
+                <th class="td">Nom</th>
+                <th class="td">Etat</th>
+                <th class="td">Action </th>
+              </tr>
+            </thead>
+            <tbody id="table">
+                
+            </tbody>
+          </table>
+          
+    </main>
+   
+</body>
+
+</html>

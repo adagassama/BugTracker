@@ -1,0 +1,45 @@
+.navbar-nav mr-auto{
+    text-align: right;
+}
+.collapse {
+    display: inherit!important;
+}
+
+.my-sm-11{
+    margin-right: 20px;
+}
+.mr-auto{
+    text-align: center;
+}
+.btn-outline-success {
+    color: #17a2b8;
+    background-color: transparent;
+    background-image: none;
+    border-color: #17a2b8;
+    
+}
+
+.btn-outline-success:hover {
+    background-color: #17a2b8;
+}
+.table {
+    width: 80%;
+    margin:auto;
+    margin-top: 20px;
+
+}
+.bg-light {
+    background-color: #bfdfff!important;
+}
+.table .thead-dark th {
+    color: #fff;
+    background-color: #17a2b8!important;
+    border-color: #32383e;
+}
+.bug{
+    text-align: center;
+    margin-top: 20px;
+}
+.td{
+    text-align: center;
+}
